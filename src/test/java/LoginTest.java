@@ -13,6 +13,7 @@ public class LoginTest
 	public void setUp()
 	{
 		driver = WebDriverManager.chromedriver().create();
+		System.out.println("i am here");
 
 	}
 
